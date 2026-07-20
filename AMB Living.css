@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f5f2;
+}
+
+/* Header */
+header {
+    background: #2c2c2c;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+.btn{
+    color: white;
+    border-radius: 100px;
+    width: 100px;
+    height: auto;
+    font-size: 15px;
+    border: none;
+    background-color: #d4af37;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.price{
+    font: size 20px;;
+    font-weight: bold;
+    color: black;
+    font: size 15px;;
+    margin-right: 10px
+}
+.btn:hover{
+    background-color: black;
+}
+
+header p {
+    color: #d4af37;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #d4af37, #f5e6c8);
+    color: #2c2c2c;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: #2c2c2c;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Products */
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 30px;
+}
+
+.card{
+    display: inline-block;
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    transition: 0.4s;
+}
+.card::before{
+    left: 0;
+}
+.card::after{
+    content: "sale";
+    position: absolute;
+    top: 0px;
+    background-color: red;
+    color: white;
+    padding: 9px 30px;
+    font-size: 19px;
+    transform: rotate(45deg);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2c2c2c;
+    color: white;
+}
+

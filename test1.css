@@ -1,0 +1,15 @@
+.hero{
+    text-align: center;
+    padding: 100vh;
+    background: linear-gradient(to right, #d4af37, #f5e6c8);
+    color: #2c2c2c;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    background: #2c2c2c;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
